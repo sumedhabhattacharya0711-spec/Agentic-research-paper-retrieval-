@@ -1,0 +1,40 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# --- gradio ---
+gradio>=4.44.0
+
+# --- langchain / langgraph / MCP ---
+langchain-groq
+langgraph
+langchain-mcp-adapters
+fastmcp
+mcp
+
+# --- ML / embeddings ---
+
+transformers
+
+# --- vector store / retrieval ---
+chromadb
+rank-bm25
+
+# --- paper search ---
+arxiv
+requests
+numpy
+networkx
+
+# --- NLP ---
+yake
+spacy
+# en_core_web_sm: add to Space's README.md setup command or
+# run once via: python -m spacy download en_core_web_sm
+
+# --- PDF parsing ---
+PyMuPDF
+pytesseract
+Pillow
+
+# --- utilities ---
+json-repair
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl

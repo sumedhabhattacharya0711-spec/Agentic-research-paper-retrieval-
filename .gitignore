@@ -1,0 +1,16 @@
+venv/
+frontend/
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.bak
+*.bak2
+**/store/cache/
+**/store/chroma/
+**/store/pdfs/
+**/store/graph.pkl
+**/store/checkpoint.txt
+**/store/triple_log.json
+node_modules/
+.DS_Store
